@@ -1,0 +1,27 @@
+#!/bin/bash
+# ----------------------------------------------------------------------------------------------------\\
+# Description:
+#   A script to declare variables to support scripts in managing a ROKS CP4I Demos
+#
+#   Options:
+#     None
+#
+#   Example:
+#     ./00-variables
+#
+#   Reference: None
+#
+# ----------------------------------------------------------------------------------------------------\\
+set -e
+
+# cp4i url 
+BASEPATH=""
+
+# api user
+USERNAME=""
+
+# api password
+PASSWORD=""
+
+# cp4i client id
+CLIENTID=""
